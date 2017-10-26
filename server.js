@@ -26,7 +26,7 @@ app.use("/", router);
 
 // Connect to localhost if not a production environment
 if(process.env.NODE_ENV == 'production'){
-	mongoose.connect('');
+	mongoose.connect('MONGODB_URI: mongodb://heroku_vf0zrhlj:43b3c3s9lmv3o6m4niijppp67f@ds143071.mlab.com:43071/heroku_vf0zrhlj');
 }
 else{
 	mongoose.connect("mongodb://localhost/webScraper");
