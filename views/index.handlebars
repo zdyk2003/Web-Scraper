@@ -1,0 +1,9 @@
+{{#each articles}}
+<form action="/save" method="post">
+	<h5 class="card-title">{{this.title}}</h5>
+    	<h6>{{this.link}}</h6>
+    	<br>
+    	<button type="submit" href= "/save" class="btn btn-info">Save Article</button>
+</form>
+    	<hr>
+{{/each}}

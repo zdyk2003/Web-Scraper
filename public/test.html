@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Scraper</title>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+<body>
+
+
+	<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">Web Scraper</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>	
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="navbar-nav mr-auto">
+	      	<li class="nav-item active">
+	        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      	</li>
+	      	<li class="nav-item">
+	        	<a class="nav-link" href="#">Saved Articles</a>
+	      	</li>
+	      	<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Scrape New Articles</button>
+    	</ul>
+	</div>
+</nav>
+	<!-- display 1 -->
+<div class="container-fluid display1" id = "home">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="content">
+				<h1 class="text-center">Mongo Web Scraper</h1>
+				<br>
+				<h3 class = "text-center">The Idaho Statesman</h3>
+ 			</div>
+ 		</div>
+ 	</div>	
+</div>
+<!-- panel for articles -->
+<div class="card">
+	<div class="card-header bg-info text-white">
+		<h4>Scraped Articles</h4>
+	</div>
+	<div class="card-body">
+    	<h5 class="card-title">Special title treatment</h5>
+    	<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate magnam quo corporis fugit porro eius nam distinctio assumenda quod asperiores at ullam cum, sed id eos sequi nemo quia harum.</h6>
+    	<a href="#" class="btn btn-info ">Save Article</a>
+  	</div>
+</div>
+	
+<!-- JavaScript -->
+<script src="public/assets/javascript/app.js"></script>
+</body>
+</html>
